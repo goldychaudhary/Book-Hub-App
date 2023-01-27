@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  background-color: white;
+  height: 100px;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px 10px 50px;
+}
+.nav-logo-container {
+  width: 400px;
+  display: flex;
+  margin: 0px;
+  height: 48px;
+  align-items: flex-start;
+}
+
+.link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #0284c7;
+}
+
+.nav-links {
+  display: flex;
+
+  list-style: none;
+  width: 400px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.logout-btn-lg {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  width: 73px;
+  height: 32px;
+  color: #f8fafc;
+  background: #0284c7;
+  border-style: none;
+  border-radius: 4px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}

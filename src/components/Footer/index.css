@@ -1,0 +1,34 @@
+.footer-main-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 200px;
+  align-self: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  width: 145px;
+  height: 21px;
+  align-self: center;
+}
+.footer-logos {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 21px;
+
+  text-align: center;
+
+  color: #3d3c3c;
+}
+.contact {
+  margin-top: 5px;
+}
+.footer-btn {
+  border-style: none;
+  background-color: transparent;
+}
